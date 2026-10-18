@@ -52,3 +52,5 @@ footer{background:var(--ink);color:#c5d3ea;padding:0 0 24px;position:relative;ov
 footer .flogo{background:#fff;border-radius:14px;padding:8px 14px}footer .flogo .lg{height:84px}
 @media(max-width:760px){.logo .lg{height:58px}}
 @media(max-width:480px){.logo .lg{height:50px}}
+@media(min-width:1001px){.hero.girl .bgimg{inset:-6% -6% -6% 34%;background-position:62% center}.hero.girl:before{background:linear-gradient(90deg,#10233f 0,rgba(16,35,63,.96) 36%,rgba(16,35,63,.55) 52%,rgba(16,35,63,.05) 100%)}}
+@media(max-width:1000px){.hero.girl .bgimg{background-position:60% center}.hero.girl:before{background:linear-gradient(180deg,rgba(14,28,50,.88),rgba(14,28,50,.72))}}
